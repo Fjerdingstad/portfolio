@@ -8,6 +8,6 @@ https://www.digitalcandy.agency/ <br/>
 
 Mostly web site maintenance, managing plugins and SEO such as compressing images and using less plugins to have a faster loading time. <br/>
 Listening to the client's request and offering understandable and efficient solutions within a deadline. <br/>
-Working on a development environment then pushing the modifications on the live site after customer's greenlight. 
+Working on a development environment then pushing the modifications on the live site after customer's greenlight. <br/>
 Communication exclusively in English. <br/>
 
