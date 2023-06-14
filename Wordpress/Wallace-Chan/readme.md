@@ -1,4 +1,7 @@
 <h1>Wallace-Chan</h1>
+https://www.wallace-chan.com/ <hr/>
+
+<b>Disclaimer: This project did not go live, the current Wallace-chan website is not the one I worked on.</b>
 
 <i>Technologies: Wordpress CMS, Javascript, HTML, CSS, plugin managing, Elementor.</i> <br/>
 <i>Skills: SEO, Designing simple and efficient pages, respecing a business's identity. </i> <br/>
