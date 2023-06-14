@@ -1,11 +1,9 @@
 <h1>Wallace-Chan</h1>
 
-<i>Technologies: CMS Wordpress, Javascript, HTML, CSS, gestions de plugins, SEO, Elementor.</i>
+<i>Technologies: Wordpress CMS, Javascript, HTML, CSS, plugin managing, Elementor.</i> <br/>
+<i>Skills: SEO, Designing simple and efficient pages, respecing a business's identity. </i> <br/>
 
+Work done during my time at Digital Candy's (2021-2022). <br/>
+https://www.digitalcandy.agency/ <br/>
 
-Worked on during my time at Digital Candy's.
-
-https://www.wallace-chan.com/
-
-Refonte du site web à travers Elementor, Wordpress, en utilisant le moins de plugins/scripts pour optimiser le site.
-
+Website redesign using Elementor on Wordpress and optimisation for faster loading time by using the least amount of plugins/scripts.
