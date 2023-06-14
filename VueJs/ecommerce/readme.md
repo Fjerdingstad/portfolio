@@ -1,4 +1,4 @@
-<h2>Visage, an ecommerce Vuejs website</br></h2>
+<h1>Visage, an ecommerce Vuejs website</br></h1>
 <i>Technology: Vuejs, Javascript, Sass, Visual Studio Code. </i> </br></br>
 
 My first Vuejs project and an introduction to Vuejs and Sass.
