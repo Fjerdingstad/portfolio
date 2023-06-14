@@ -16,3 +16,7 @@ visage productlist.png:
 The product listing page, where the faces are fetched from the API like in the home page.
 
 Feel free to check the "src" folder for close inspection of the codes.
+
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+</div>
