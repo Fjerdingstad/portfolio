@@ -2,7 +2,7 @@
 <i>Technology: Vuejs, Javascript, Sass, Visual Studio Code. </i> </br></br>
 
 My first Vuejs project and an introduction to Vuejs and Sass.
-A lot of Sass customisation and use of Vuejs to make a light and clean product listing website. (The products being Comic like Faces I created).
+A lot of Sass customisation and use of Vuejs to make a light and clean product listing website. (The products being comic like faces I created).
 The product is structured using Views, Components and the Vue-Router, organised to make have lighter files.
 The Data is fetched from a local JSON file in an "API" folder.
 
