@@ -4,7 +4,7 @@ https://www.wallace-chan.com/ <hr/>
 <b>Disclaimer: This project did not go live, the current Wallace-chan website is not the one I worked on.</b>
 
 <i>Technologies: Wordpress CMS, Javascript, HTML, CSS, plugin managing, Elementor.</i> <br/>
-<i>Skills: SEO, Designing simple and efficient pages, respecing a business's identity. </i> <br/>
+<i>Skills: SEO, Designing simple and efficient pages, respecting a business's identity. </i> <br/>
 
 Work done during my time at Digital Candy's (2021-2022). <br/>
 https://www.digitalcandy.agency/ <br/>
