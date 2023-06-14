@@ -1,0 +1,134 @@
+.window-container {
+    margin-left: auto;
+    margin-top: 1em;
+    margin-right: auto;
+    padding-top: 5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    width: 80%;
+    box-shadow: 1px 1px 30px rgba(128, 128, 128, 0.274);
+}
+
+.main-content {
+    padding: 5em;
+}
+
+.main-content-padding {
+    padding: 5em 0 5em 0;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    justify-content: space-between;
+}
+
+.face {
+    width: 30%;
+    /* padding: 1em; */
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.face .info {
+    display: flex;
+}
+
+.face p {
+    font-weight: 500;
+}
+
+.face .info span {
+    color: rgba(128, 128, 128, 0.452);
+    font-weight: 500;
+}
+
+.face .price {
+    text-align: left;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.473);
+}
+
+.face:nth-child(even) img {
+    background: #42b8832c;
+}
+
+.face:nth-child(odd) img {
+    background: #00b4e62a;
+}
+
+.category {
+    display: flex;
+}
+
+#nav {
+    width: 100%;
+    display: flex;
+}
+
+.span-spacer {
+    flex: 1 1 auto;
+}
+
+.faded-subtitle {
+    font-weight: 700;
+    opacity: 0.5;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.small-subtitle {
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+.face-smaller {
+    width: 21%;
+    // padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.face-smaller .info {
+    display: flex;
+}
+
+.face-smaller p {
+    font-weight: 500;
+}
+
+.face-smaller .info span {
+    color: rgba(128, 128, 128, 0.452);
+    font-weight: 500;
+}
+
+.face-smaller .price {
+    text-align: left;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.473);
+}
+
+.face-smaller:nth-child(even) img {
+    background: #42b8832c;
+}
+
+.face-smaller:nth-child(odd) img {
+    background: #00b4e62a;
+}
+
+.section-tab {
+    display: flex;
+    // vertical-align: bottom;
+    align-items: baseline;
+}
+
+.section-tab h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.section-tab span.faded-subtitle {
+    padding: 1em 2.5em 1em 2.5em;
+}
