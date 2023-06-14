@@ -1,0 +1,130 @@
+.drawer-container .drawer-nav-btn {
+  display: flex;
+  /* position: absolute; */
+  width: 100%;
+}
+
+.drawer-container .add-contact-btn {
+  flex-direction: column;
+  align-items: center;
+  margin: 3em auto;
+  padding: 0 16px;
+  max-width: 960px;
+}
+
+.container {
+  padding: 3em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.contact-info {
+  text-align: center;
+}
+.contact-info h2 {
+  margin: 0;
+}
+
+.contact-container {
+  display: flex;
+  width: 100%;
+  padding-top: 3em;
+}
+
+.contact-form {
+  width: 100%;
+  padding: 2em;
+}
+
+.contact-grid {
+  width: 100%;
+  padding: 2em;
+  background: #eee;
+}
+
+.contact-grid h2 {
+  text-align: center;
+}
+
+form .form-group {
+  margin-bottom: 1em;
+}
+
+form mat-form-field {
+  width: 100%;
+  padding: 0 1em;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 0.5em 0.3em;
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+}
+
+.form-group-inline {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.form-group-inline div.form-city {
+  width: 50%;
+}
+
+.form-group-inline div.form-postal-code {
+  width: 50%;
+}
+
+form button {
+  margin: 0 1em;
+}
+
+.contact-row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 0.2em;
+}
+
+.contact-row-details {
+  /* background-color: #EEE; */
+  flex-grow: 1;
+  padding: 0.4em 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 0.2em;
+  cursor: pointer;
+}
+
+.contact-row-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-row-action a {
+  display: block;
+  cursor: pointer;
+  padding: 1em;
+  color: #ef5350;
+}
+
+.contact-grid td {
+  padding: 1em;
+}
+
+.contact-grid .table-labels {
+  font-weight: 300;
+}

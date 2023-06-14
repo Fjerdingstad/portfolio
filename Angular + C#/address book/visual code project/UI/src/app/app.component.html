@@ -1,0 +1,253 @@
+﻿<mat-toolbar color="primary">
+  <button
+    mat-icon-button
+    class="menu-icon"
+    aria-label="Example icon-button with menu icon"
+    (click)="drawer.toggle()"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Address Book</span>
+</mat-toolbar>
+
+<mat-drawer-container class="drawer-container" autosize>
+  <mat-drawer #drawer opened class="drawer-sidenav" mode="side">
+    <mat-nav-list>
+      <div class="contact-row" *ngFor="let contact of contacts">
+        <a
+          mat-list-item
+          (click)="populateForm(contact)"
+          (click)="getCity(contact.contactPostalCode1)"
+          (click)="getCity2(contact.contactPostalCode2)"
+        >
+          <div
+            title="Update {{ contact.contactFirstName }} {{
+              contact.contactLastName
+            }}"
+            class="contact-row-details"
+          >
+            <span
+              >{{ contact.contactFirstName }}
+              {{ contact.contactLastName }}</span
+            >
+          </div>
+        </a>
+        <button mat-button [matMenuTriggerFor]="menu">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </button>
+        <mat-menu #menu="matMenu">
+          <div class="contact-row-action">
+            <a (click)="deleteContact(contact.contactId)">Delete contact</a>
+          </div>
+        </mat-menu>
+      </div>
+      <div class="drawer-nav-btn">
+        <button
+          title="Create a contact"
+          mat-mini-fab
+          class="add-contact-btn"
+          (click)="resetContactForm()"
+        >
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </div>
+    </mat-nav-list>
+  </mat-drawer>
+
+  <div class="container">
+    <h1>{{ pageTitle }}</h1>
+    <div [hidden]="contactInfo" class="contact-info">
+      <div>
+        <h2>Address 1</h2>
+        <h3>
+          {{ contact.contactAddress1 }}, {{ contact.contactPostalCode1 }}
+          {{ contact.contactCity1 }}
+        </h3>
+      </div>
+      <div>
+        <h2>Address 2</h2>
+        <h3>
+          {{ contact.contactAddress2 }}, {{ contact.contactPostalCode2 }}
+          {{ contact.contactCity2 }}
+        </h3>
+      </div>
+    </div>
+
+    <div class="contact-container">
+      <div class="contact-form">
+        <form #form="ngForm" (ngSubmit)="onSubmit()">
+          <div class="form-group form-group-inline">
+            <mat-form-field appearance="fill">
+              <mat-label>First name</mat-label>
+              <input
+                required
+                matInput
+                type="text"
+                name="firstName"
+                [(ngModel)]="contact.contactFirstName"
+              />
+              <mat-error *ngIf="firstName.invalid"
+                >First name is required</mat-error
+              >
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+              <mat-label>Last name</mat-label>
+              <input
+                required
+                matInput
+                type="text"
+                name="lastName"
+                [(ngModel)]="contact.contactLastName"
+              />
+              <mat-error *ngIf="lastName.invalid"
+                >Last name is required</mat-error
+              >
+            </mat-form-field>
+          </div>
+
+          <div class="form-group">
+            <mat-form-field appearance="fill">
+              <mat-label>Address 1</mat-label>
+              <input
+                required
+                matInput
+                type="text"
+                name="address1"
+                [(ngModel)]="contact.contactAddress1"
+              />
+              <mat-error *ngIf="address1.invalid">Address is required</mat-error>
+            </mat-form-field>
+          </div>
+
+          <div class="form-group form-group-inline">
+            <div class="form-postal-code">
+              <mat-form-field appearance="fill">
+                <mat-label>Postal Code 1</mat-label>
+                <input
+                  required
+                  matInput
+                  type="text"
+                  name="postalCode1"
+                  minlength="5"
+                  maxlength="5"
+                  [(ngModel)]="contact.contactPostalCode1"
+                  (keyup)="getCity(contact.contactPostalCode1)"
+                />
+                <mat-error *ngIf="postalCode1.invalid"
+                  >Postal code is required</mat-error
+                >
+              </mat-form-field>
+            </div>
+            <div class="form-city">
+              <mat-form-field appearance="fill">
+                <mat-label>City 1</mat-label>
+                <mat-select
+                  name="city1"
+                  required
+                  [(value)]="contact.contactCity1"
+                  [(ngModel)]="contact.contactCity1"
+                >
+                  <mat-option
+                    name="option"
+                    *ngFor="let ge of geo"
+                    [value]="ge.nom"
+                  >
+                    {{ ge.nom }}
+                  </mat-option>
+                </mat-select>
+                <mat-error *ngIf="city1.invalid">City is required</mat-error>
+              </mat-form-field>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <mat-form-field appearance="fill">
+              <mat-label>Address 2</mat-label>
+              <input
+                matInput
+                type="text"
+                name="contactAddress2"
+                [(ngModel)]="contact.contactAddress2"
+              />
+            </mat-form-field>
+          </div>
+
+          <div class="form-group form-group-inline">
+            <div class="form-postal-code">
+              <mat-form-field appearance="fill">
+                <mat-label>Postal Code 2</mat-label>
+                <input
+                  matInput
+                  type="text"
+                  name="contactPostalCode2"
+                  minlength="5"
+                  maxlength="5"
+                  [(ngModel)]="contact.contactPostalCode2"
+                  (keyup)="getCity2(contact.contactPostalCode2)"
+                />
+              </mat-form-field>
+            </div>
+            <div class="form-city">
+              <mat-form-field appearance="fill">
+                <mat-label>City 2</mat-label>
+                <mat-select
+                  name="contactCity2"
+                  [(value)]="contact.contactCity2"
+                  [(ngModel)]="contact.contactCity2"
+                >
+                  <mat-option
+                    name="option2"
+                    *ngFor="let ge2 of geo2"
+                    [value]="ge2.nom"
+                  >
+                    {{ ge2.nom }}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <button mat-raised-button color="accent" [disabled]="form.invalid">
+              {{ submitBtn }}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- <div class="contact-grid">
+      <h2>Contacts</h2>
+      <table class="">
+        <tr class="table-labels">
+          <td>First Name</td>
+          <td>Last Name</td>
+          <td>Address 1</td>
+          <td>Postal Code 1</td>
+          <td>Address 2</td>
+          <td>Postal Code 2</td>
+          <td>City 1</td>
+          <td>City 2</td>
+        </tr>
+        <tr *ngFor="let contact of contacts" class="table-details">
+          <td>{{ contact.contactFirstName }}</td>
+          <td>{{ contact.contactLastName }}</td>
+          <td>{{ contact.contactAddress1 }}</td>
+          <td>{{ contact.contactPostalCode1 }}</td>
+          <td>{{ contact.contactAddress2 }}</td>
+          <td>{{ contact.contactPostalCode2 }}</td>
+          <td>{{ contact.contactCity1 }}</td>
+          <td>{{ contact.contactCity2 }}</td>
+          <div class="contact-row-action">
+            <a (click)="deleteContact(contact.contactId)"
+              ><i class="fa-solid fa-x"></i
+            ></a>
+          </div>
+        </tr>
+      </table>
+    </div> -->
+  </div>
+
+</mat-drawer-container>
+
+
