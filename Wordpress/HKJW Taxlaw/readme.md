@@ -7,5 +7,7 @@ https://www.hkwj-taxlaw.hk/<hr/>
 Work done during my time at Digital Candy's (2021-2022). <br/>
 https://www.digitalcandy.agency/ <br/>
 
-Website optimisation for faster loading, lighter scripts and compressed images. Debugging.
-Use of Elementor to structure pages and create widgets.
+Website optimisation for faster loading, lighter scripts and compressed images. <br/>
+Debugging. <br/>
+Use of Elementor to structure pages and create widgets. <br/>
+Understanding the customer's request, solving problems, showcasing solutions and writing documentation for an easy understanding of what is going on.
