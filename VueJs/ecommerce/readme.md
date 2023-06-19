@@ -1,6 +1,8 @@
 <h1>Visage, an ecommerce Vuejs website</br></h1>
 <i>Technology: Vuejs, Javascript, Sass, Visual Studio Code. </i> </br></br>
 
+![alt text](https://github.com/Fjerdingstad/portfolio/blob/main/VueJs/ecommerce/visage%20homepage.png?raw=true)
+
 My first Vuejs project and an introduction to Vuejs and Sass.
 A lot of Sass customisation and use of Vuejs to make a light and clean product listing website. (The products being comic like faces I created).
 The product is structured using Views, Components and the Vue-Router, organised to make have lighter files.
