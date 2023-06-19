@@ -3,6 +3,8 @@
 <i>Technology: Angular, C#, mySQL, Angular Material.</i> <br/>
 <i>Uses of routing, component structuring, services.</i>
 
+![alt text](https://github.com/Fjerdingstad/portfolio/blob/main/Angular%20%2B%20C%23/address%20book/addressbook_create.png?raw=true)
+
 My first experience with Angular and C# (ASP.NET), a web application made with Angular and C# that uses 2 APIs: <br/>
 One API Rest to interact with the addresses (to show, create, update and delete),
 A second api, Geo API allowing to match the postal code to the corresponding city automatically.
