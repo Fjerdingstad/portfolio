@@ -1,6 +1,6 @@
 # Web Development Portfolio
 
-<i>Technologies: Angular, C#, ASP .Net, Vue.js, Sass, Javascript, mySQL, Wordpress...</i><br/>
+<i>Technologies: Angular, C#, ASP .Net, Vue.js, Javascript, Php, Sass, mySQL, Wordpress...</i><br/>
 <i>Skills: SEO, Angular Material, Styling, Optimising Applications, Writing documentation & Customer Relations </i>
 
 
