@@ -1,4 +1,4 @@
-<h1>Audiovisual & Design</h1>
+<h1>Payment Simulator Php application</h1>
 
 ![alt text](https://github.com/Fjerdingstad/portfolio/blob/main/Php/PaymentApp/realPayment.png?raw=true)
 
