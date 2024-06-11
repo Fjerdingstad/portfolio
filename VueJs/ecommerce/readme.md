@@ -1,7 +1,7 @@
 <h1>Visage, an ecommerce Vuejs website</br></h1>
 <i>Technology: Vuejs, Javascript, Sass, Visual Studio Code. </i> </br></br>
-🇫🇷 Explications détaillées: https://chrisfjerd.notion.site/Visage-Site-vitrine-E-commerce-7b792cacb30e42bba4f2d861863135f9 <br/>
-🇬🇧 🇺🇸 Project Details : https://chrisfjerd.notion.site/EN-Visage-E-commerce-Showcase-Site-07d10b4844a64b5aa03d3a5cb070b68c?pvs=74
+🇫🇷 Explications détaillées: [Notion (FR)](https://chrisfjerd.notion.site/Visage-Site-vitrine-E-commerce-7b792cacb30e42bba4f2d861863135f9) <br/>
+🇬🇧 🇺🇸 Project Details : [Notion (EN)](https://chrisfjerd.notion.site/EN-Visage-E-commerce-Showcase-Site-07d10b4844a64b5aa03d3a5cb070b68c?pvs=74)
 
 ![alt text](https://github.com/Fjerdingstad/portfolio/blob/main/VueJs/ecommerce/visage%20homepage.png?raw=true)
 
