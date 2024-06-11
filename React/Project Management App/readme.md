@@ -2,6 +2,6 @@
 
 <i>Technology: React, Material UI, Node.js, SQLite</i> <br/>
 
-![alt text](https://github.com/Fjerdingstad/portfolio/blob/main/Angular%20%2B%20C%23/address%20book/addressbook_create.png?raw=true)
+![alt text](https://raw.githubusercontent.com/Fjerdingstad/portfolio/main/React/Project%20Management%20App/thumbnail.png)
 
 https://chrisfjerd.notion.site/Application-Gestion-de-Projets-ad99324a2c08472eaacce4abda8e7457?pvs=74
