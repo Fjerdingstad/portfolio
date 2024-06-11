@@ -1,5 +1,7 @@
 <h1>Payment Simulator (Php)</h1>
 <i>Technology: Php. </i> </br></br>
+🇫🇷 Explications détaillées: https://www.notion.so/chrisfjerd/Application-Service-de-paiement-3234edfe53284c918f8704b85adfcab4 <br/>
+🇬🇧 🇺🇸 Project Details: https://www.notion.so/chrisfjerd/EN-Payment-Service-Application-e5c90d74db3a4164985c91c0ae4e927e
 
 <i>Simulated Payment from a webservice</i> <br/>
 ![alt text](https://github.com/Fjerdingstad/portfolio/blob/main/Php/PaymentApp/realPayment.png?raw=true) <br/>
