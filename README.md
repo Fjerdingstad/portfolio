@@ -1,6 +1,6 @@
 # Web Development Portfolio
 
-For a complete portfolio, containing more details and projects please go to my notion: <br/>
+For a complete portfolio, showcasing more details and projects please go to my notion: <br/>
 https://chrisfjerd.notion.site/EN-Chris-FJERDINGSTAD-b3e022b631da46b482d04df2d95aa1a7
 
 <i>Technologies: Angular, C#, ASP .Net, Vue.js, Javascript, Php, Sass, mySQL, Wordpress...</i><br/>
