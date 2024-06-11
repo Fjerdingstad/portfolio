@@ -2,8 +2,8 @@
 
 <i>Technology: Angular, C#, mySQL, Angular Material.</i> <br/>
 <i>Uses of routing, component structuring, services.</i> <br/>
-🇫🇷 https://chrisfjerd.notion.site/Application-Carnet-d-adresses-cea9f8b7e14a46bca81d80bebc87e9d3 <br/>
-🇬🇧 🇺🇸 https://chrisfjerd.notion.site/EN-Address-Book-Application-0214da0cb4bc4a3e91b7ee7a6663163b
+🇫🇷 Explications détaillées: https://chrisfjerd.notion.site/Application-Carnet-d-adresses-cea9f8b7e14a46bca81d80bebc87e9d3 <br/>
+🇬🇧 🇺🇸 Project Details : https://chrisfjerd.notion.site/EN-Address-Book-Application-0214da0cb4bc4a3e91b7ee7a6663163b
 
 ![alt text](https://github.com/Fjerdingstad/portfolio/blob/main/Angular%20%2B%20C%23/address%20book/addressbook_create.png?raw=true)
 
